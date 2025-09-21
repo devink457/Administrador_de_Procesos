@@ -9,7 +9,7 @@ namespace Administrador_de_Procesos
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            int a;
         }
     }
 }
