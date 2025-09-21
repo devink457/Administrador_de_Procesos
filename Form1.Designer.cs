@@ -54,7 +54,7 @@
             dgvAdministrador.RowHeadersWidth = 51;
             dataGridViewCellStyle6.Font = new Font("Lucida Console", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvAdministrador.RowsDefaultCellStyle = dataGridViewCellStyle6;
-            dgvAdministrador.Size = new Size(881, 367);
+            dgvAdministrador.Size = new Size(881, 397);
             dgvAdministrador.TabIndex = 0;
             // 
             // dgv
