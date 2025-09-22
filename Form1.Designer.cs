@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             dgvAdministrador = new DataGridView();
             dgv = new DataGridViewTextBoxColumn();
             dgvID = new DataGridViewTextBoxColumn();
@@ -59,18 +59,18 @@
             dgvAdministrador.Margin = new Padding(3, 2, 3, 2);
             dgvAdministrador.Name = "dgvAdministrador";
             dgvAdministrador.RowHeadersWidth = 51;
-            dataGridViewCellStyle12.Font = new Font("Lucida Console", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dgvAdministrador.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Font = new Font("Lucida Console", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dgvAdministrador.RowsDefaultCellStyle = dataGridViewCellStyle6;
             dgvAdministrador.Size = new Size(771, 298);
             dgvAdministrador.TabIndex = 0;
             // 
             // dgv
             // 
             dgv.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle7.BackColor = Color.Turquoise;
-            dataGridViewCellStyle7.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle7.ForeColor = Color.Black;
-            dgv.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.BackColor = Color.Turquoise;
+            dataGridViewCellStyle1.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.Black;
+            dgv.DefaultCellStyle = dataGridViewCellStyle1;
             dgv.HeaderText = "Proceso";
             dgv.MinimumWidth = 6;
             dgv.Name = "dgv";
@@ -78,10 +78,10 @@
             // dgvID
             // 
             dgvID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle8.BackColor = Color.Turquoise;
-            dataGridViewCellStyle8.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle8.ForeColor = Color.Black;
-            dgvID.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.BackColor = Color.Turquoise;
+            dataGridViewCellStyle2.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dgvID.DefaultCellStyle = dataGridViewCellStyle2;
             dgvID.HeaderText = "ID";
             dgvID.MinimumWidth = 6;
             dgvID.Name = "dgvID";
@@ -89,10 +89,10 @@
             // dgvFisica
             // 
             dgvFisica.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle9.BackColor = Color.Turquoise;
-            dataGridViewCellStyle9.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle9.ForeColor = Color.Black;
-            dgvFisica.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.BackColor = Color.Turquoise;
+            dataGridViewCellStyle3.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dgvFisica.DefaultCellStyle = dataGridViewCellStyle3;
             dgvFisica.HeaderText = "Memoria Física";
             dgvFisica.MinimumWidth = 6;
             dgvFisica.Name = "dgvFisica";
@@ -100,10 +100,10 @@
             // dgvVirtual
             // 
             dgvVirtual.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle10.BackColor = Color.Turquoise;
-            dataGridViewCellStyle10.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle10.ForeColor = Color.Black;
-            dgvVirtual.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = Color.Turquoise;
+            dataGridViewCellStyle4.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = Color.Black;
+            dgvVirtual.DefaultCellStyle = dataGridViewCellStyle4;
             dgvVirtual.HeaderText = "Memoria Virtual";
             dgvVirtual.MinimumWidth = 6;
             dgvVirtual.Name = "dgvVirtual";
@@ -111,10 +111,10 @@
             // dgvCPU
             // 
             dgvCPU.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle11.BackColor = Color.Turquoise;
-            dataGridViewCellStyle11.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle11.ForeColor = Color.Black;
-            dgvCPU.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.BackColor = Color.Turquoise;
+            dataGridViewCellStyle5.Font = new Font("Franklin Gothic Medium Cond", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle5.ForeColor = Color.Black;
+            dgvCPU.DefaultCellStyle = dataGridViewCellStyle5;
             dgvCPU.HeaderText = "CPU";
             dgvCPU.MinimumWidth = 6;
             dgvCPU.Name = "dgvCPU";
@@ -134,7 +134,7 @@
             btnDetener.BackColor = Color.Green;
             btnDetener.Location = new Point(143, 316);
             btnDetener.Name = "btnDetener";
-            btnDetener.Size = new Size(101, 29);
+            btnDetener.Size = new Size(98, 29);
             btnDetener.TabIndex = 2;
             btnDetener.Text = "Detener";
             btnDetener.UseVisualStyleBackColor = false;
