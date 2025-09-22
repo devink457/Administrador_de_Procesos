@@ -128,7 +128,6 @@
             btnActualizar.TabIndex = 1;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = false;
-            btnActualizar.Click += btnActualizar_Click;
             // 
             // btnDetener
             // 
@@ -139,6 +138,7 @@
             btnDetener.TabIndex = 2;
             btnDetener.Text = "Detener";
             btnDetener.UseVisualStyleBackColor = false;
+            btnDetener.Click += btnDetener_Click;
             // 
             // btnSalir
             // 
@@ -149,6 +149,7 @@
             btnSalir.TabIndex = 3;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
+            btnSalir.Click += btnSalir_Click;
             // 
             // txtContador
             // 
