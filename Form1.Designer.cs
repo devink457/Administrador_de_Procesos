@@ -61,8 +61,9 @@
             dgvAdministrador.RowHeadersWidth = 51;
             dataGridViewCellStyle6.Font = new Font("Lucida Console", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dgvAdministrador.RowsDefaultCellStyle = dataGridViewCellStyle6;
-            dgvAdministrador.Size = new Size(771, 298);
+            dgvAdministrador.Size = new Size(755, 247);
             dgvAdministrador.TabIndex = 0;
+            dgvAdministrador.CellContentClick += dgvAdministrador_CellContentClick;
             // 
             // dgv
             // 
@@ -128,10 +129,11 @@
             btnActualizar.TabIndex = 1;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = false;
+            btnActualizar.Click += btnActualizar_Click;
             // 
             // btnDetener
             // 
-            btnDetener.BackColor = Color.Green;
+            btnDetener.BackColor = Color.Chartreuse;
             btnDetener.Location = new Point(143, 316);
             btnDetener.Name = "btnDetener";
             btnDetener.Size = new Size(98, 29);
@@ -143,7 +145,8 @@
             // btnSalir
             // 
             btnSalir.BackColor = Color.Blue;
-            btnSalir.Location = new Point(689, 316);
+            btnSalir.ForeColor = SystemColors.ButtonHighlight;
+            btnSalir.Location = new Point(689, 325);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(101, 29);
             btnSalir.TabIndex = 3;
@@ -180,6 +183,7 @@
             txtProceso.Size = new Size(13, 15);
             txtProceso.TabIndex = 6;
             txtProceso.Text = "0";
+            txtProceso.Click += txtProceso_Click;
             // 
             // Form1
             // 
