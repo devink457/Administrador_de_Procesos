@@ -18,7 +18,9 @@ namespace Administrador_de_Procesos
             UpdateProcessList();
             txtContador.Enabled = true;
         }
-
+        /*Diego Denilson Castrillo Castrillo - 0901-23-12445 
+         Yo me encargue de colocar los botones en el formulario, fue diseño de los botones y 
+        también colocar los labels como el txtContador, label1 y el txtProceso*/
         private void txtContador_Tick(object sender, EventArgs e)
         {
             UpdateProcessList();
